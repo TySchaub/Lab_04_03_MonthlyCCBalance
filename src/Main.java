@@ -5,13 +5,12 @@ public class Main {
     {
         int ccBalance = 5000;
         double interestRate = 0.17;
-        
+
         double interest = ccBalance * interestRate;
         double firstMonth = ccBalance + interest;
         double secondMonth = firstMonth + interest;
 
         System.out.println("Your first month account balance is: " + firstMonth);
         System.out.println("Your second month account balance is: " + secondMonth);
-
     }
 }
